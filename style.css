@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'Glory', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* border: 2px solid red; */
+}
+html{
+    font-size:62.5% ;
+}
+.navigation{
+display: flex;
+justify-content: space-between;
+}
+.logo img{
+    width:10rem;
+    height:5rem;
+}
+.nav{
+    display: flex;
+    padding:2rem;
+    font-size:1.5rem;
+    align-items: center;
+    color:rgb(255, 255, 255)
+}
+.nav__items ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav__items li{
+    padding:0 1.5rem;
+}
+.icon i{
+    color:white;
+    padding:0 3rem;
+}
+.profile img{
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+}
+
+.bg__img{
+    width:100vw;
+    height:100vh;
+    background-image: url('images/hqdefault.jpg');
+    background-size: cover;
+    background-position: center left;
+    background-color: rgba(0, 0, 0, 0.432);
+    background-blend-mode: overlay;
+    margin-top:-7.4rem;
+    color:white;
+}
+.bg__text{
+    padding-top:10rem;
+    padding-left:3rem;
+}
+.bg__text h2{
+    font-size: 2rem;   
+}
+.bg__text span{
+    color:rgba(255, 255, 255, 0.733);
+    font-weight: lighter;
+}
+.bg__text h1{
+    margin-bottom:2rem;
+    font-size:6rem;
+    font-family: 'Oswald', sans-serif;
+}
+.bg__text p{
+ width:40rem;
+ font-size: 1.5rem;
+ line-height: 1.5;
+ color:rgba(255, 255, 255, 0.795);
+ margin-bottom:2rem;
+}
+.bg__text h3{
+    font-weight: lighter;
+    font-size: 1.7rem;
+    margin-bottom:4rem;
+}
+.trailers{
+    margin-left:-1rem;
+}
+.trailers img{
+    width:20rem;
+    height: 15rem;
+    margin-top:1rem;
+    padding-left:1rem;
+}
+
+
+@media(max-width:468px){
+     body{
+         width:97%;
+     }
+    .navigation{
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        margin:0 -1rem;
+    }
+        .logo img{
+            width:10rem;
+            height:5rem;
+            
+        }
+        .nav{
+            display: flex;
+            padding:0 2rem;
+            font-size:1.1rem;
+            align-items: center;
+            color:rgb(255, 255, 255)
+        }
+        .nav__items ul{
+            display: flex;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        .nav__items li{
+            padding:0 1rem;
+        }
+        .icon i{
+            color:white;
+            padding:0 1.5rem;
+        }
+        .profile img{
+            width:2rem;
+            height:2rem;
+            border-radius: 50%;
+        }
+        
+        .bg__img{
+            width:103%;
+            height:101.2vh;
+            background-image: url('images/the-professor-digital-painting-money-heist-ke-1125x2436.jpg');
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(0, 0, 0, 0.432);
+            background-blend-mode: overlay;
+            margin-top:-6rem;
+            color:white;
+        }
+        .bg__text{
+            width:35rem;
+            padding-top:15rem;
+            padding-left:3rem;
+        }
+        .bg__text h2{
+            font-size:1.5rem;   
+        }
+        .bg__text span{
+            color:rgba(255, 255, 255, 0.733);
+            font-weight: lighter;
+        }
+        .bg__text h1{
+            margin-bottom:2rem;
+            font-size:4rem;
+            font-family: 'Oswald', sans-serif;
+        }
+        .bg__text p{
+         width:23rem;
+         font-size:1.2rem;
+         line-height: 1.5;
+         color:rgba(255, 255, 255, 0.795);
+         margin-bottom:3rem;
+        }
+        .bg__text h3{
+            font-weight: lighter;
+            font-size: 1.2rem;
+            margin-bottom:2rem;
+        }
+        .trailers{
+            margin-left:-1rem;
+        }
+        .trailers img{
+            width:10rem;
+            height:8rem;
+            margin-top:1rem;
+            padding-left:1rem;
+        }
+        
+}
+
+
+
+
+@media(max-width:399px){
+   .navigation{
+    margin:0 1rem;
+   }
+    .nav{
+        display: flex;
+        /* padding:.1rem; */
+        font-size:1rem;
+        margin-right:1rem;
+        align-items: center;
+        color:rgb(255, 255, 255); 
+    }
+  
+    .nav__items ul{
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .nav__items li{
+        padding:0 1rem;
+    }
+    .logo img{
+        width:7rem;
+        height:4rem;
+    }
+    .icon i{
+        width:2rem;
+        color:white;
+        padding-left:.1rem;
+    }
+    .bg__img{
+        width:103%;
+        height:103vh;
+    }
+    .profiile{
+        width:1rem;
+    }
+    .profile img{
+        width:2rem;
+        height:2rem;
+        border-radius: 50%;
+        
+    }
+    .bg__text{
+        width:35rem;
+        padding-top:15rem;
+        padding-left:3rem;
+    }
+}
